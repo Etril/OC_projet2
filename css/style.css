@@ -32,6 +32,20 @@ a {
     text-decoration: none;
 }
 
+.annonce {
+    margin-bottom: 40px;
+}
+
+.annonce-title {
+    margin: 0px 0px 10px 0px;
+}
+
+.annonce-subtitle {
+    margin: 0px;
+}
+
+
+
 .section-title {
     margin: 0;
     font-size: 22px;

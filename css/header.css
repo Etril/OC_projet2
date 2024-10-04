@@ -1,12 +1,12 @@
 header {
     display:flex;
     justify-content: space-between;
-    padding: 0 0% 80px 0px;
+    margin: 0 0% 50px 0px;
 }
 
 #logo {
     width: 5%;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
 }
 
 .topnav {
