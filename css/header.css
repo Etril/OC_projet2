@@ -1,0 +1,28 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 0% 80px 0px;
+}
+
+#logo {
+    width: 5%;
+    padding: 10px;
+}
+
+.topnav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.topnav a {
+    padding: 10px 0px 0px 0px;
+    border-top: 10px solid #0065FC transparent;
+}
+
+.topnav a:hover {
+    color:#0065FC; 
+    border-top: solid #0065FC;
+    overflow: hidden;
+}
