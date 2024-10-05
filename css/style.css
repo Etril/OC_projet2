@@ -70,6 +70,41 @@ body {
     cursor: pointer;
 }
 
+.filtres {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.filtres-button {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px #F2F2F2 solid;
+    font-weight: bold;
+    gap: 10px;
+    padding: 0px 15px 0px 15px;
+    height: 40px;
+    font-size: 0.9em;
+}
+
+.filtres-button:hover{
+    cursor:pointer;
+}
+
+.filtres-button:active {
+    background-color: #DEEBFF ;
+}
+
+.filtres-button:focus{
+    background-color: #DEEBFF;
+
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
