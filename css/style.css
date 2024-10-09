@@ -91,6 +91,10 @@ a {
     padding: 15px;
 }
 
+.fa-magnifying-glass {
+    display: none;
+}
+
 .search-button:hover{
     background-color: white ;
     color: black;
@@ -365,5 +369,137 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .main-container {
+        padding: 0px;
+    }
+
+    .annonce {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .search {
+        display: inline-block;
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .fa-location-dot {
+        width: 13%;
+        box-sizing: border-box;
+    }
+
+    .fa-magnifying-glass {
+        color:#F2F2F2;
+        display: inline;
+    }
+
+    .search-field{
+        width: 70%;
+        box-sizing: border-box;
+    }
+
+    .search-text {
+        display: none;
+    }
+
+    .search-button{
+        border-radius: 15px 15px 15px 15px;
+        width: 13%;
+        box-sizing: border-box;
+    }
+
+    .filtres-boutons {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .filtres{
+        padding: 0px 10px 0px 10px;
+    }
+
+    .filtres-button {
+        width: 48%;
+    }
+
+    .information {
+        padding: 0px 10px 0px 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hebergements-and-populaires{
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        padding: 20px 10px 20px 10px;
+
+    }
+
+    .populaires{
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards .card{
+        width: 100%;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #hebergements {
+        background-color: white;
+    }
+
+    .hebergements-cards {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
+    .hebergements-cards a {
+        width: 100%;
+    }
+
+    .hebergements-cards .card{
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    .activites{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .activites-cards {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+
+    }
+
+    .activites-cards a {
+        width: 100%;
+    }
+
+    .activites-cards .card {
+        width: 100%;
+        margin-top: 0px;
+    }
+
 }
