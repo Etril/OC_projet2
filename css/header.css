@@ -6,7 +6,7 @@ header {
 
 #logo {
     width: 5%;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
 }
 
 .topnav {
@@ -18,13 +18,23 @@ header {
 
 .topnav a {
     padding: 10px 0px 0px 0px;
-    border-top: 10px solid #0065FC transparent;
+    border-top: 3px solid #0065fc00;
 }
 
 .topnav a:hover {
     color:#0065FC; 
     border-top: solid #0065FC;
     overflow: hidden;
+}
+
+/* Medium devices (tablets) *****/
+
+@media (max-width: 1023.98px) {
+    #logo {
+        width: 10%;
+        padding-top: 30px;
+
+    }
 }
 
 /* Small devices (phones, less than 768px) */
